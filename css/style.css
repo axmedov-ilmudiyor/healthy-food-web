@@ -161,6 +161,12 @@ a {
   transition: all 0.1s ease-in-out;
 }
 
+.main__section {
+  background-image: url(../img/vector.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 538px) calc(50% - 1500px);
+}
+
 /* !----------------------FEATURES SECTION */
 
 .features__section-wrapper {
