@@ -6,9 +6,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -323,4 +327,126 @@ a {
   background-color: #fff;
   border: 1px solid #dc780b;
   transition: all 0.1s ease-in-out;
+}
+
+/* !--------------------------MENU SECTION */
+
+.menu__section-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 185px;
+}
+
+.menu__section-name {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  color: #dc780b;
+  opacity: 0.7;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.menu__section-title {
+  font-family: var(--font-philosopher);
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #150c01;
+  margin-bottom: 25px;
+}
+
+.menu__section-desc {
+  width: 100%;
+  max-width: 748px;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+  margin-bottom: 60px;
+}
+
+.menu__section-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu__section-card {
+  border-radius: 75px 10px 10px 10px;
+  border: 1px solid #0000001a;
+  margin-bottom: 30px;
+}
+
+.menu__card-img {
+  width: 360px;
+  height: 264px;
+  margin-bottom: 20px;
+}
+
+.menu__card-text {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-philosopher);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.menu__card-desc {
+  width: 100%;
+  max-width: 310px;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 24px;
+  color: #150c01;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  padding: 0 25px;
+}
+
+.menu__card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin-bottom: 25px;
+}
+
+.menu__card-add {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  background-color: #dc780b;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.menu__card-rate i {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+
+.menu__card-rate i:nth-child(-n + 3) {
+  color: #dc780b;
+}
+
+.menu__section-btn {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #dc780b;
+  border: 1px solid rgba(220, 120, 11, 0.2);
+  padding: 12px 25px;
 }
