@@ -450,3 +450,88 @@ a {
   border: 1px solid rgba(220, 120, 11, 0.2);
   padding: 12px 25px;
 }
+
+/* !------------------------APP SECTION */
+
+.app__section {
+  position: relative;
+  padding: 120px 0;
+  background-color: #fbf1e7;
+  margin-bottom: 215px;
+}
+
+.app__section-wrapper {
+  display: flex;
+}
+
+.app__section-content {
+  padding-left: 100px;
+}
+
+.app__section-name {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #dc780b;
+  margin-bottom: 5px;
+}
+
+.app__section-title {
+  width: 100%;
+  max-width: 555px;
+  font-family: var(--font-philosopher);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #150c01;
+  margin-bottom: 30px;
+}
+
+.app__section-desc {
+  width: 100%;
+  max-width: 555px;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #150c01;
+  margin-bottom: 40px;
+}
+
+.app__section-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.app__section-btn {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffffff;
+  border: 1.5px solid #150c01;
+  padding: 12px 25px;
+  border-radius: 5px;
+  color: #150c01;
+}
+
+.app__section-btn:nth-child(1) {
+  color: #fff;
+  background-color: #150c01;
+  margin-right: 30px;
+}
+
+.app__btn-img {
+  margin-right: 5px;
+}
+
+.app__section-img {
+  position: absolute;
+  top: -67px;
+  left: 950px;
+}
